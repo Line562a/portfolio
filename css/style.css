@@ -36,7 +36,6 @@ padding-inline: 1rem;
 cursor: pointer;
 border-radius: 5px;
 font-weight: 700;
-width: 60%;
 font-family: sofia-pro, sans-serif;
 }
 
@@ -49,7 +48,7 @@ transition: 1s;
 h1 {
 font-family: sofia-pro, sans-serif;
 font-weight: 900;
-font-size: 3.5rem;
+font-size: 3rem;
 line-height: 0.9;
 padding-bottom: 1rem;
 }
@@ -104,6 +103,13 @@ width: 100%;
 background-color: var(--offwhite);
 }
 
+.logo h1 {
+font-size: 2rem;
+padding-top: 1.2rem;
+color: var(--darkgreen);
+font-weight: 600;
+}
+
 .navbar {
 display: flex;
 justify-content: space-around;
@@ -148,11 +154,15 @@ position: relative;
 display: block;
 }
 
+.logo h1 {
+padding: 1.5rem;
+}
+
 .menu {
 display: block;
 position: absolute;
-top: 20px;
-right: 20px;}
+top: 35px;
+right: 35px;}
 
 .nav_list, 
 li {
