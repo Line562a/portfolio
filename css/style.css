@@ -36,7 +36,6 @@ padding-inline: 1rem;
 cursor: pointer;
 border-radius: 5px;
 font-weight: 700;
-font-family: sofia-pro, sans-serif;
 }
 
 button:hover {
@@ -46,15 +45,14 @@ transition: 1s;
 }
 
 h1 {
-font-family: sofia-pro, sans-serif;
-font-weight: 900;
+font-weight: 700;
 font-size: 3rem;
 line-height: 0.9;
 padding-bottom: 1rem;
 }
 
 h2 {
-font-weight: 600;
+font-weight: 500;
 font-size: 1.5rem;
 line-height: 1.1;
 padding-bottom: 1rem;
@@ -65,7 +63,7 @@ h3 {
 font-weight: 600;
 font-size: 1rem;
 line-height: 1;
-padding-bottom: 1rem;
+padding-bottom: 0.7rem;
 color: var(--offgrey);
 }
 
@@ -142,44 +140,9 @@ display: none;
 
 .menu_line {
 width: 20px;
-height: 2.5px;
-margin-bottom: 3px;
+height: 2px;
+margin-bottom: 4px;
 background-color: var(--offgrey);
-}
-
-@media all and (max-width: 630px) {
-.navbar {
-flex-direction: column;
-position: relative;
-display: block;
-}
-
-.logo h1 {
-padding: 1.5rem;
-}
-
-.menu {
-display: block;
-position: absolute;
-top: 35px;
-right: 35px;}
-
-.nav_list, 
-li {
-display: block;
-border-bottom: 1px solid white;
-text-align: center;
-}
-
-.nav_list {
-list-style: none;
-width: 100%;
-padding: 0;
-margin: 0;
-display: none;}
-
-.active {
-display: block;}
 }
 
 /* om mig om mig om mig om mig om mig */
@@ -193,6 +156,10 @@ grid-template-columns: 1fr 1fr 1fr 1fr;
 grid-template-rows: 1fr 1fr 1fr;
 gap: 2rem;
 margin-bottom: 1rem;
+}
+
+.intro a:hover {
+background-color: white;
 }
 
 .intro_text {
@@ -271,6 +238,42 @@ padding-bottom: 0.5rem;
 
 .grid1_text2 {
 padding-bottom: 4rem;
+}
+
+.navbar {
+flex-direction: column;
+position: relative;
+display: block;
+}
+
+.logo {
+padding-left: 1rem;
+padding-bottom: 1rem;
+width: 10%;
+}
+
+.menu {
+display: block;
+position: absolute;
+top: 35px;
+right: 35px;}
+
+.nav_list, 
+li {
+display: block;
+border-bottom: 1px solid white;
+text-align: center;
+}
+
+.nav_list {
+list-style: none;
+width: 100%;
+padding: 0;
+margin: 0;
+display: none;}
+
+.active {
+display: block;
 }
 }
 
