@@ -99,7 +99,7 @@ font-weight: 700;
 
 .navbar {
 display: flex;
-justify-content: space-around;
+justify-content: space-evenly;
 }
 
 .nav_list {
@@ -116,7 +116,7 @@ padding: 0.8rem 1rem;
 text-decoration: none;
 font-size: 0.8rem;
 color: var(--offwhite);
-font-weight: 600;
+font-weight: 400;
 }
 
 .navbar a:hover {
@@ -145,7 +145,6 @@ display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr;
 grid-template-rows: 1fr 1fr 1fr;
 gap: 2.5rem;
-margin-bottom: 1rem;
 }
 
 .intro_text {
@@ -171,6 +170,15 @@ border-radius: 100%;
 .profilbillede {
 grid-column: 2 / 3;
 grid-row: 2 / 3;
+}
+
+/* forside forside forside forside forside */
+
+.hero {
+width: 100%;
+height: 100vh;
+background-color: var(--green);
+margin-bottom: 1rem;
 }
 
 /* indhold indhold indhold indhold indhold */
