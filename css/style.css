@@ -350,6 +350,12 @@ border-top: none;
 .active {
 display: block;
 }
+
+img,
+video {
+max-width: 80%;
+margin: 0 auto;
+}
 }
 
 @media all and (max-width: 700px) {
