@@ -355,6 +355,7 @@ img,
 video {
 max-width: 80%;
 margin: 0 auto;
+height: auto;
 }
 }
 
