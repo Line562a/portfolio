@@ -300,11 +300,16 @@ line-height: 1;
 
 /* responsiv responsiv responsiv responsiv responsiv responsiv */
 
-@media all and (max-width: 630px) {
+@media all and (max-width: 810px) {
 .navbar {
 flex-direction: column;
 position: relative;
 display: block;
+}
+
+img,
+video {
+height: auto;
 }
 
 .logo {
@@ -351,13 +356,6 @@ border-top: none;
 display: block;
 }
 
-img,
-video {
-height: auto;
-}
-}
-
-@media all and (max-width: 700px) {
 .grid1_text,
 .grid2_text {
 grid-column: 1 / 4;
@@ -431,7 +429,6 @@ width: 100%;
 .hero p {
 width: 100%;
 }
-
 }
 
 /* footer footer footer footer footer footer */
