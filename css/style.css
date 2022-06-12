@@ -300,7 +300,7 @@ line-height: 1;
 
 /* responsiv responsiv responsiv responsiv responsiv responsiv */
 
-@media all and (max-width: 810px) {
+@media all and (max-width: 900px) {
 .navbar {
 flex-direction: column;
 position: relative;
