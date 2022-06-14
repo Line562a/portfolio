@@ -362,19 +362,17 @@ text-align: center;
 
 /* responsiv responsiv responsiv responsiv responsiv responsiv */
 
-@media all and (max-width: 1500px) {
-img,
-video {
-width: 100%;
-height: auto;
-}
-}
-
 @media all and (max-width: 810px) {
 .navbar {
 flex-direction: column;
 position: relative;
 display: block;
+}
+
+img,
+video {
+width: 100%;
+height: auto;
 }
 
 .logo {
