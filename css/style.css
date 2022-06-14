@@ -362,7 +362,7 @@ text-align: center;
 
 /* responsiv responsiv responsiv responsiv responsiv responsiv */
 
-@media all and (max-width: 810px) {
+@media all and (max-width: 1100px) {
 .navbar {
 flex-direction: column;
 position: relative;
