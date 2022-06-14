@@ -362,6 +362,14 @@ text-align: center;
 
 /* responsiv responsiv responsiv responsiv responsiv responsiv */
 
+@media all and (max-width: 1030px) {
+img,
+video {
+width: 100%;
+height: auto;
+}
+}
+
 @media all and (max-width: 810px) {
 .navbar {
 flex-direction: column;
@@ -411,12 +419,6 @@ border-top: none;
 
 .active {
 display: block;
-}
-
-img,
-video {
-width: 100%;
-height: auto;
 }
 
 .grid1_text,
