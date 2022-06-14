@@ -362,7 +362,7 @@ text-align: center;
 
 /* responsiv responsiv responsiv responsiv responsiv responsiv */
 
-@media all and (max-width: 1030px) {
+@media all and (max-width: 1200px) {
 img,
 video {
 width: 100%;
